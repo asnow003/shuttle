@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/shuttle.loader.js";
       var config = {
-        dataUrl: buildUrl + "/shuttle.data.gz",
-        frameworkUrl: buildUrl + "/shuttle.framework.js.gz",
-        codeUrl: buildUrl + "/shuttle.wasm.gz",
+        dataUrl: buildUrl + "/shuttle.data.unityweb",
+        frameworkUrl: buildUrl + "/shuttle.framework.js.unityweb",
+        codeUrl: buildUrl + "/shuttle.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Shuttle Game",
@@ -99,7 +99,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/shuttle.jpg.gz') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/shuttle.jpg.unityweb') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
